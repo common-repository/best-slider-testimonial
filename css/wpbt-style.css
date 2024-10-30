@@ -1,0 +1,154 @@
+/*Best Slider Testimonial style css*/
+
+.post-slider{
+	margin-bottom: 40px;
+}
+.posts{
+	text-align: center;
+}
+.post-one{
+	padding: 0 15%;
+	margin-bottom: 5%;
+}
+.owl-carousel .owl-nav.disabled {
+	display: none;
+}
+.owl-theme .owl-nav {
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 4rem;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+	text-align: center;
+	font-size: 18px;
+	line-height: 1;
+	margin: 5px;
+	padding: 0.8% 1.2%;
+	background: transparent;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 50%;
+    transition: 0.3s;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+	color: #fff;
+}
+.post-image{
+	position: relative;
+}
+.post-image:after{
+	content: "";
+}
+.post-image img{
+	position: relative;
+}
+.post-image .image-layer {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	transition: 0.3s;
+	visibility: hidden;
+	transform: scale(0);
+}
+.post-image .image-layer a {
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: auto;
+    transition: 0.3s;
+}
+.post-image:hover .image-layer{
+	visibility: visible;
+	transition: 0.3s;
+	transform: scale(1);
+}
+.post-date{
+	position: absolute;
+	left: 5%;
+	top: 5%;
+	width: 20%;
+	height: auto;	
+}
+.post-slider-cont:hover .date-spa{
+	background: #c7b299;
+}
+.post-slider-cont:hover .month-spa{
+	background: #a48d72;
+}
+.date-spa{
+	font-size: 20px;
+	transition: 0.3s;
+    text-align: center;
+}
+.month-spa{
+	text-transform: capitalize;
+	font-size: 16px;
+	transition: 0.3s;
+    text-align: center;
+}
+.post-date span{
+	line-height: 2em;
+}
+.post-slider-cont:hover .post-cont{
+	transition: 0.3s;
+}
+.post-slider-cont:hover .image-layer{
+	visibility: visible;
+	transition: 0.3s;
+	transform: scale(1);
+}
+.post-cont{
+	text-align: left;
+	padding: 4% 4% 8% 4%;
+	transition: 0.3s;
+}
+.post-cont .review{
+	margin-bottom: 0.5rem!important;
+}
+.post-slider-cont:hover .review{
+	color: #fff;
+}
+.post-cont .review span{
+	font-size: 0.7em!important;
+	margin-right: 2%;
+}
+.post-cont h4{
+	margin: 0!important;
+	line-height: 1;
+	font-size: 1.5em!important;
+}
+.post-slider-cont:hover h4{
+	color: #fff;
+}
+.post-cont h5{
+    margin-top: 2%!important;
+    line-height: 1;
+    font-size: 1.8rem;
+}
+.post-slider-cont:hover h5{
+	color: #000;
+}
+.post-cont p{
+	margin-top: 6%!important;
+	margin-bottom: 1%!important;
+	line-height: 1.4!important;
+	font-size: 1em!important;
+}
+.post-slider-cont:hover p{
+	color: #f2f2f2;
+}
+.post-cont a{
+	text-decoration: none;
+	text-transform: capitalize;	
+    font-size: 0.8em;
+    color: #f2f2f2;
+}
+.post-cont a:hover{
+    color: #8c8c8c;
+}

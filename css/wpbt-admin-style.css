@@ -1,0 +1,41 @@
+/*Best Slider Testimonial admin style css*/
+.wpbt-wrap{
+	background: #fff;
+	padding: 30px 10px;
+	overflow: hidden;
+}
+.wpbt-main-body{
+	width: 70%;
+	float: left;
+	border: 1px solid;
+	padding: 10px;
+	margin-right: 20px;
+}
+.wpbt-sidebar{
+	width: 20%;
+	float: left;
+	border: 1px solid;
+	padding: 10px;
+}
+.wpbt-cler{
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.wpbt-sidebar h4{
+	margin-bottom: 0.3rem!important;
+}
+.wpbt-sidebar a{
+	background: #33BC47!important;
+	color: #fff!important;
+	font-weight: bold;
+	border-style: none!important;
+}
+.wpbt-sidebar a:focus{
+	border: none!important;
+	border-style: none!important;
+	box-shadow: none!important;
+}
+.wpbt-sidebar a:hover{
+	background: #41C352!important;
+}
